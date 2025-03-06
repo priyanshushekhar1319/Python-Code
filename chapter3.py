@@ -23,8 +23,3 @@ print('it\'s a sunny day my gpt') # to add a ('s) in a sentence
 print(' hello \"priyanshu\"') # to add a double quote ("") in a sentence 
 print('hello \rpriyanshu how are you?')#\r it generally moves the cursoon to te beginning of the line (overrites the current line )
 print("priyaaa\b!") # \b Removes the character before it   
-
-
-
-   
-

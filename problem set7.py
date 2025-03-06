@@ -47,3 +47,64 @@ for name in l:
 #  *
 # ***
 # ***** for n = 3
+
+# n=int(input("enter the rows: "))
+# for i in range(1,n+1):
+#     for j in range(n-i):
+#         print(" ", end="")
+#     for k in range(2*i - 1):
+
+#         print("*", end="")
+#     print( )
+
+# 8. Write a program to print the following star pattern:
+# *
+# **
+# *** for n = 3
+# n=int(input("enter the rows: "))
+# for i in range(1,n+1):
+#     for k in range(i):
+#         print("*",end="")
+#     for j in range(n-i):
+#         print(" ",end="")
+#     print()
+
+# Write a program to print the following star pattern.
+# * * *
+# *   *   for n = 3
+# * * *
+
+# n=int(input("enter the rows: "))
+# for i in range(1,n+1):
+#     if(i==1 or i==n):
+#         print("* "*n,end="")
+#     else:
+#         print("* ",end="")
+#         print("  " *(n-2),end="")
+#         print("* ",end="")
+#     print()
+
+# 10. Write a program to print multiplication table of n using for loops in reversed
+# order.
+n=int(input("enter a number: "))
+for i in range(1,11):
+    print(f"{n} x {11-i} = {n*(11-i)}")
+
+# 1  10
+# 2  9
+# 3  8      isme kya dikh rha hai sbhi ka sum 11 aaaraha hai
+# 4  7      toh agar hm (11-i) kr de toh nikal shakta hai reversed order 
+# 5  6
+# 6  5
+# 7  4
+# 8  3
+# 9  2
+# 10 1
+# or
+num=int(input("enter a number: "))
+for i in range(10,0,-1):
+        print(f"{num} x {i} = {num*i}")
+
+
+
+   
